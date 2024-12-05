@@ -29,18 +29,18 @@
 //     cout<<"your age is "<<age<<endl;
 //     return 0;
 // }
-
-
-
 #include <iostream>
 using namespace std;
-
+// Sum of a & b
 int main() {
-    int age;
-    cout<<"Enter age : ";
-    cin>>age;
+    int a;
+    int b;
 
-    cout<<"your age is "<<age<<endl;
+    cout<<"Enter first number: ";
+    cin>>a;
+    cout<<"Enter second number: ";
+    cin>>b;
+    int sum = a+b ;
+    cout<<"sum = "<<sum<<endl;
     return 0;
 }
-
