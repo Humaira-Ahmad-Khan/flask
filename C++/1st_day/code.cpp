@@ -45,9 +45,26 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// using namespace std;
+// // Substraction of a and b
+// int main() {
+//     int a;
+//     int b;
+
+//     cout<<"Enter first number: ";
+//     cin>>a;
+//     cout<<"Enter second number: ";
+//     cin>>b;
+//     int diff = a-b ;
+//     cout<<"diff = "<<diff<<endl;
+//     return 0;
+// }
+
+
 #include <iostream>
 using namespace std;
-// Substraction of a and b
+// Multiplication of a and b
 int main() {
     int a;
     int b;
@@ -56,7 +73,7 @@ int main() {
     cin>>a;
     cout<<"Enter second number: ";
     cin>>b;
-    int diff = a-b ;
-    cout<<"diff = "<<diff<<endl;
+    int Pro = a*b ;
+    cout<<"Pro = "<<Pro<<endl;
     return 0;
 }
