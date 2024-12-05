@@ -62,18 +62,34 @@
 // }
 
 
+// #include <iostream>
+// using namespace std;
+// // Multiplication of a and b
+// int main() {
+//     int a;
+//     int b;
+
+//     cout<<"Enter first number: ";
+//     cin>>a;
+//     cout<<"Enter second number: ";
+//     cin>>b;
+//     int Pro = a*b ;
+//     cout<<"Pro = "<<Pro<<endl;
+//     return 0;
+// }
+
 #include <iostream>
 using namespace std;
 // Multiplication of a and b
 int main() {
-    int a;
+   int a;
     int b;
 
     cout<<"Enter first number: ";
     cin>>a;
     cout<<"Enter second number: ";
     cin>>b;
-    int Pro = a*b ;
-    cout<<"Pro = "<<Pro<<endl;
+    float div = a/b ;
+    cout<<"div = "<<div<<endl;
     return 0;
 }
