@@ -29,9 +29,25 @@
 //     cout<<"your age is "<<age<<endl;
 //     return 0;
 // }
+// #include <iostream>
+// using namespace std;
+// // Sum of a & b
+// int main() {
+//     int a;
+//     int b;
+
+//     cout<<"Enter first number: ";
+//     cin>>a;
+//     cout<<"Enter second number: ";
+//     cin>>b;
+//     int sum = a+b ;
+//     cout<<"sum = "<<sum<<endl;
+//     return 0;
+// }
+
 #include <iostream>
 using namespace std;
-// Sum of a & b
+// Substraction of a and b
 int main() {
     int a;
     int b;
@@ -40,7 +56,7 @@ int main() {
     cin>>a;
     cout<<"Enter second number: ";
     cin>>b;
-    int sum = a+b ;
-    cout<<"sum = "<<sum<<endl;
+    int diff = a-b ;
+    cout<<"diff = "<<diff<<endl;
     return 0;
 }
