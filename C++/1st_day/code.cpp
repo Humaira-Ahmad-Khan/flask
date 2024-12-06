@@ -93,26 +93,26 @@
 //     cout<<"div = "<<div<<endl;
 //     return 0;
 // }
-// # include <iostream>
-// using namespace std;
-// int main() {
-//     int c ;
-//     int d ;
-//     cout<<"Enter c =  ";
-//     cin>>c;
-//     cout<<"Enter d = ";
-//     cin>>d;
-//     int prod = c*d;
-//     cout<<"prod = "<<prod<<endl;
+# include <iostream>
+using namespace std;
+int main() {
+    int c ;
+    int d ;
+    cout<<"Enter c =  ";
+    cin>>c;
+    cout<<"Enter d = ";
+    cin>>d;
+    int prod = c*d;
+    cout<<"prod = "<<prod<<endl;
      
 
-//     int quotient = c/d;
-//     cout<<"quotient = "<<quotient<<endl;
+    int quotient = c/d;
+    cout<<"quotient = "<<quotient<<endl;
 
-//     int remainder = c % d;
-//     cout<<"remainder = "<<remainder<<endl;
-//     return 0;
-// }
+    int remainder = c % d;
+    cout<<"remainder = "<<remainder<<endl;
+    return 0;
+}
 
 // # include <iostream>
 // using namespace std;
@@ -145,36 +145,36 @@
 //      }
      
 
-     #include <iostream>
-using namespace std;
+//      #include <iostream>
+// using namespace std;
 
-int main() {
-    int c, d;
+// int main() {
+//     int c, d;
 
-    cout << "Enter c = ";
-    cin >> c;
-    cout << "Enter d = ";
-    cin >> d;
+//     cout << "Enter c = ";
+//     cin >> c;
+//     cout << "Enter d = ";
+//     cin >> d;
 
-    // Calculating product
-    int prod = c * d;
-    cout << "prod = " << prod << endl;
+//     // Calculating product
+//     int prod = c * d;
+//     cout << "prod = " << prod << endl;
 
-    // Check if d is zero to avoid division by zero
-    if (d != 0) {
-        // Calculating quotient
-        int quotient = c / d;
-        cout << "quotient = " << quotient << endl;
+//     // Check if d is zero to avoid division by zero
+//     if (d != 0) {
+//         // Calculating quotient
+//         int quotient = c / d;
+//         cout << "quotient = " << quotient << endl;
 
-        // Calculating remainder
-        int remainder = c % d;
-        cout << "remainder = " << remainder << endl;
-    } else {
-        cout << "Error: Division by zero is not allowed." << endl;
-    }
+//         // Calculating remainder
+//         int remainder = c % d;
+//         cout << "remainder = " << remainder << endl;
+//     } else {
+//         cout << "Error: Division by zero is not allowed." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
