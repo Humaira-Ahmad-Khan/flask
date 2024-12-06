@@ -93,26 +93,26 @@
 //     cout<<"div = "<<div<<endl;
 //     return 0;
 // }
-# include <iostream>
-using namespace std;
-int main() {
-    int c ;
-    int d ;
-    cout<<"Enter c =  ";
-    cin>>c;
-    cout<<"Enter d = ";
-    cin>>d;
-    int prod = c*d;
-    cout<<"prod = "<<prod<<endl;
+// # include <iostream>
+// using namespace std;
+// int main() {
+//     int c ;
+//     int d ;
+//     cout<<"Enter c =  ";
+//     cin>>c;
+//     cout<<"Enter d = ";
+//     cin>>d;
+//     int prod = c*d;
+//     cout<<"prod = "<<prod<<endl;
      
 
-    int quotient = c/d;
-    cout<<"quotient = "<<quotient<<endl;
+//     int quotient = c/d;
+//     cout<<"quotient = "<<quotient<<endl;
 
-    int remainder = c % d;
-    cout<<"remainder = "<<remainder<<endl;
-    return 0;
-}
+//     int remainder = c % d;
+//     cout<<"remainder = "<<remainder<<endl;
+//     return 0;
+// }
 
 // # include <iostream>
 // using namespace std;
@@ -178,27 +178,27 @@ int main() {
 
 
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main(){
-//     float eng;
-//     cout<<"Enter english maks: ";
-//     cin>>eng;
-//     float sci;
-//     cout<<"Enter science maks: ";
-//     cin>>sci;
-//     float math;
-//     cout<<"Enter math maks: ";
-//     cin>>math;
+int main(){
+    float eng;
+    cout<<"Enter english maks: ";
+    cin>>eng;
+    float sci;
+    cout<<"Enter science maks: ";
+    cin>>sci;
+    float math;
+    cout<<"Enter math maks: ";
+    cin>>math;
 
-//     float avg = (eng + sci + math) / 3;
-//     cout<<"Avg marks = "<<avg<<endl;
+    float avg = (eng + sci + math) / 3;
+    cout<<"Avg marks = "<<avg<<endl;
 
 
-//     return 0;
+    return 0;
 
-// }
+}
 
 // #include <iostream>
 // using namespace std;
